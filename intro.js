@@ -1,7 +1,6 @@
-console.log('Hello, world!');
+const operand = 12;
+const operand2 = 45;
 
-const a = 12;
-let b = 45;
+let result = operand + operand2;
 
-b += a;
-console.log("résultat de a + b = " + b);
+console.log("resultat de" + operand + "+" + operand2 + "=" + result);
